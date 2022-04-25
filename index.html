@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Movies App</title>
+</head>
+<body>
+    <header>
+        <form id="form">        
+            <input 
+                type="text" 
+                class="search" 
+                id="search" 
+                placeholder="Search" 
+                autocomplete="off"/>
+        </form>
+    </header>
+    <main id='main'></main>
+    <div class="movie-details-container hidden" id="movie-details-container">
+        <button class="close-details" id="close-details">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="movie-details" id="movie-details"></div>
+    </div>
+</body>
+</html>
